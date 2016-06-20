@@ -1,0 +1,33 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f4b53f2f-5e6f-4bcc-86cb-330e90df96c1" name="test1" url="http://tong.sima.io/">
+        <fileTransfer port="0" mountedRoot="C:\Users\Intern\Desktop\test" accessType="MOUNT" />
+      </webServer>
+      <webServer id="32344296-d926-4d8a-825f-37dad38bf568" name="tong@tong.sima.io" url="http://tong.sima.io">
+        <fileTransfer host="tong.sima.io" port="22" privateKey="C:\Users\Intern\Desktop\OPEN" rootFolder="/var/www/html/tong/LaravelApp" accessType="SFTP" username="tong" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="389d1858-8733-4909-9de0-7351a3ef18f7" name="teamwork" url="http://sripathy.sima.io">
+        <fileTransfer host="sripathy.sima.io" port="22" privateKey="C:\Users\Intern\Downloads\opensshkey" rootFolder="/var/www/html/sripathy/team3" accessType="SFTP" username="sripathy" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="da191efe-f16f-49af-b3ea-f2e45dda7808" name="Geocoding" url="http://tong.sima.io">
+        <fileTransfer host="tong.sima.io" port="22" privateKey="C:\Users\Intern\Desktop\OPEN" rootFolder="/var/www/html/tong/GeoCoding" accessType="SFTP" username="tong" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

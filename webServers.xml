@@ -36,6 +36,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="5f6622db-495b-44e0-811a-064a8e9d5936" name="tony" url="http://tong.sima.io">
+        <fileTransfer host="tong.sima.io" port="22" privateKey="C:\Users\Intern\Desktop\OPEN" rootFolder="/var/www/html/tong/Assignment#4/login" accessType="SFTP" username="tong" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
